@@ -1,0 +1,5 @@
+<!--pages/test/test.wxml-->
+<view>
+  <button bindtap='turnToPage' id='randomNum'>随机数字</button>
+  <button bindtap='turnToPage' id='longNum'>数字马拉松</button>
+</view>

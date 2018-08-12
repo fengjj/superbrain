@@ -1,0 +1,8 @@
+<!--pages/number/number.wxml-->
+<text>pages/number/number.wxml</text>
+<view>
+
+<view>
+  <text bindtap='returnBack'>返回</text> 
+</view>
+</view>

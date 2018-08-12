@@ -1,0 +1,10 @@
+<!--pages/number/randomNum.wxml-->
+<view class='testhead'>
+  <text class='returnBack' bindtap='returnBack'>返回</text> 
+  <input id='num' value='{{num}}' type='number' placeholder='请输入随机数位数' maxlength='6' bindblur='setNum'></input> 
+  <button bindtap='createRandomNum' size=''>生成</button>
+</view>
+<scroll-view class='testscrollbody' scroll-y="true" >
+  <view class='testbody' wx:for="{{randomNum}}">{{item}}</view>
+</scroll-view>
+

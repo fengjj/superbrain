@@ -1,0 +1,14 @@
+/* pages/number/randomNum.wxss */
+.returnBack{
+  color: blue;
+}
+.testhead{
+  flex-direction: row;
+}
+.testscrollbody{
+  height: 400rpx;
+  flex-direction:row;
+}
+.testbody{
+  width: 10rpx;
+}

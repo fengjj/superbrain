@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto" >
+    <text class="user-motto">
+昨夜星辰昨夜风，画楼西畔桂堂东。
+身无彩凤双飞翼，心有灵犀一点通。
+隔座送钩春酒暖，分曹射覆蜡灯红。
+嗟余听鼓应官去，走马兰台类转蓬。
+    </text>
+  </view>
+  
+</view>
